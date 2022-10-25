@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Singing Information Tong
+</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" type="text/css" href="dd.css">
+  <link rel="stylesheet" type="text/css" href="menubar.css">
+  <link rel="stylesheet" type="text/css" href="gallery.css">
+  <link rel="stylesheet" type="text/css" href="slideshow.css">
+  <link rel="stylesheet"  href="pagination.css">
+  <link rel="stylesheet" type="text/css" href="sidebar.css">
+<head>
+<center>
+<header>
+<style type="text/css">
+  body{
+    width: 980px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #FFFFB3;
+  }
+  .img{margin-bottom: -50px;
+    padding: 50px 20px 0px 0px; 
+    margin-right: auto;
+  }
+  .b{
+    background: white;
+  }
+
+.mySlides {display:none;}
+</style>
+
+</head>
+<body onload="popup();">
+  <div class="b">
+  <header>
+  <div class="img"> <img src="logo.jpg" alt="싱싱정보통" height="70" width="130"></div>
+  </header>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="login.html" target="_blank">로그인</a>
+  <a href="#">회원가입</a>
+  <a href="#">장바구니</a>
+  <a href="#">마이페이지</a>
+  <a href="#">커뮤니티</a>
+  <a href="#">구매후기</a>
+  <a href="#">상품Q&A</a>
+</div>
+<span style=" float: left; font-size:40px; color: green; cursor:pointer " onclick="openNav()">&#9776;</span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+  <div class="menu"></div>
+<nav class="nav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">거창</a>
+      <ul>
+        <li><a href="#">사과</a></li>
+        <li><a href="#">복수박</a></li>
+        <li><a href="#">딸기</a></li>
+      </ul>
+    </li>
+    <li><a href="#">사천</a>
+    <ul>
+                <li><a href="#">토마토</a></li>
+        <li><a href="#">파프리카</a></li>
+        <li><a href="#">참다래</a></li>
+      </ul>
+      <li><a href="#">진주</a>
+    <ul>
+                <li><a href="#">단감</a></li>
+        <li><a href="#">배</a></li>
+        <li><a href="#">은이버섯</a></li>
+      </ul>
+    <li><a href="#">의령</a>
+    <ul>
+                <li><a href="#">구아바</a></li>
+        <li><a href="#">호박</a></li>
+        <li><a href="#">새송이 버섯</a></li>
+      </ul>
+    <li><a href="#">함안</a>
+    <ul>
+                <li><a href="#">수박</a></li>
+        <li><a href="#">시레기</a></li>
+        <li><a href="#">연근</a></li>
+      </ul>
+      <li><a href="#">고성</a>
+    <ul>
+                <li><a href="#">쌀</a></li>
+        <li><a href="#">한우</a></li>
+        <li><a href="#">방울토마토</a></li>
+    </ul>
+    <li><a href="#">통영</a>
+    <ul>
+                <li><a href="#">굴</a></li>
+        <li><a href="#">멸치</a></li>
+        <li><a href="#">장어</a></li>
+      </ul>
+    <li><a href="#">거제</a>
+    <ul>
+                <li><a href="#">죽순</a></li>
+        <li><a href="#">유자</a></li>
+        <li><a href="#">파인애플</a></li>
+      </ul>
+</nav>
+<hr>
+<h2 class="w3-center">주요 이벤트</h2>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="j1.jpg" style="width:100%  ">
+  <img class="mySlides" src="j2.jpg" style="width:100% ">
+  <img class="mySlides" src="j3.jpg" style="width:100% ">
+  <img class="mySlides" src="map.png" style="width:50% ">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  <div>
+
+
+<hr>
+<h1 style="text-align: center;">WEEKLY BEST</h1>
+<p><h2 style="text-align: center;">한 주간의 인기상품 TOP3!</h2></p><br><hr><br>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Order Sheet3.html">
+      <img src="img1.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">거제 몽돌빵</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Order Sheet2.html">
+      <img src="img2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">함안 수박</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Order Sheet.html">
+      <img src="img7.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><a href="Order Sheet.html">새콤달콤 거창홍옥 사과</a></div>
+  </div>
+</div>
+<br>
+<hr><br><h1 style="text-align: center;">지역별 특산물</h1>
+<p><h2 style="text-align: center;">한 주간의 인기상품 TOP3!</h2></p><br><hr><br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="order sheet4.html">
+      <img src="img3.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">거제도 배추 1포기당 6000원</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="order sheet5.html">
+      <img src="img4.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">함안 시레기 1kg당 8000원 </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="order sheet6.html">
+      <img src="img5.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"> 진주 김치 반포기 당 6500원</div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+<div class="paginate">
+  <a href="#" class="prev">이전페이지</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <strong>5</strong>
+  <a href="#">6</a>
+  <a href="#">7</a>
+  <a href="#">8</a>
+  <a href="#">9</a>
+  <a href="#">10</a>
+  <a href="#" class="next">다음페이지</a>
+</div>
+</div>
+</div>
+</div>
+</center>
+</section>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<footer>
+<div class="footer" style="font-size: 16px; text-align: center; width: 980px; height: 100px; margin: 0 auto; margin-bottom: 5px; background-color: gray; clear: both; padding: 30px; color: white;">
+  <p>상호 싱싱정보통 ㅣ 대표 싱싱정보통 ㅣ 사업자등록번호 123-45-789 ㅣ 대표전화 010-1234-4567</p>
+<P>주소 <a href="http://maps.google.com/maps?q=대한민국+부산광역시+엄광로+176&h1=ko" target="_blank">부산광역시 부산진구 동의대</a> ㅣ 이메일 <a href="mailto:singsing2867@naver.com">singsing2867@naver.com</a></p>
+</div>
+</footer>
+
+</body></html>
