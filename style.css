@@ -12,6 +12,7 @@
     height: auto;
     display: block;
     position: relative;
+    opacity: 0;
 }
 
 .경상남도지도 > #거창{
@@ -21,7 +22,8 @@
     position: absolute;
     top: 135px;
     left: 420px;
-    z-index: 100;    
+    z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #함양{
@@ -31,7 +33,8 @@
     position: absolute;
     top: 250px;
     left: 330px;
-    z-index: 100;    
+    z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #산청{
@@ -42,6 +45,7 @@
     top: 350px;
     left: 410px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #하동{
@@ -52,6 +56,7 @@
     top: 520px;
     left: 350px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #사천{
@@ -62,6 +67,7 @@
     top: 540px;
     left: 470px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #남해{
@@ -72,6 +78,7 @@
     top: 700px;
     left: 440px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #고성{
@@ -82,6 +89,7 @@
     top: 540px;
     left: 600px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #통영{
@@ -92,6 +100,7 @@
     top: 630px;
     left: 640px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #거제{
@@ -102,6 +111,7 @@
     top: 650px;
     left: 760px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #진주{
@@ -112,6 +122,7 @@
     top: 440px;
     left: 530px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #합천{
@@ -122,6 +133,7 @@
     top: 280px;
     left: 510px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #의령{
@@ -132,6 +144,7 @@
     top: 330px;
     left: 600px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #창녕{
@@ -142,6 +155,7 @@
     top: 280px;
     left: 700px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #밀양{
@@ -152,6 +166,7 @@
     top: 260px;
     left: 810px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #함안{
@@ -162,6 +177,7 @@
     top: 370px;
     left: 680px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #창원{
@@ -172,6 +188,7 @@
     top: 430px;
     left: 760px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #김해{
@@ -182,6 +199,7 @@
     top: 420px;
     left: 870px;
     z-index: 100;
+    opacity: 0;
 }
 
 .경상남도지도 > #양산{
@@ -192,6 +210,7 @@
     top: 340px;
     left: 960px;
     z-index: 100;
+    opacity: 0;
 }
 
 .footer{
